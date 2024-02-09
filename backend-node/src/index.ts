@@ -4,7 +4,7 @@ const server = express();
 const bodyParser = require('body-parser');
 const cors = require('cors');
 server.use(cors({
-    origin: 'https://saas-monk-assignment-37i6.vercel.app',
+    origin: 'https://movie-reviews-webapp.vercel.app',
     credentials: true
 }));
 
